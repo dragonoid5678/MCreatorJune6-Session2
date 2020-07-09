@@ -43,13 +43,100 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "jetpack"
+    },
+    {
+      "name": "SenseiBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sensei_block"
+    },
+    {
+      "name": "RupeeOre",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rupee_ore"
+    },
+    {
+      "name": "Rupee",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rupee"
+    },
+    {
+      "name": "RupeeSmelting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rupee_smelting"
+    },
+    {
+      "name": "FaceMe",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "face_me"
+    },
+    {
+      "name": "Marliggger",
+      "type": "mob",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "marliggger"
+    },
+    {
+      "name": "StimPax",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stim_pax"
+    },
+    {
+      "name": "StimPaxRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stim_pax_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.ourmod.jetpack": "Jetpack"
+      "item.ourmod.rupee": "Rupee",
+      "block.ourmod.face_me": "Face Me",
+      "block.ourmod.rupee_ore": "Rupee Ore",
+      "item.ourmod.jetpack": "Jetpack",
+      "item.ourmod.stim_pax": "Stim Pax",
+      "block.ourmod.sensei_block": "Sensei Block",
+      "entity.ourmod.marliggger": "Marlin",
+      "item.ourmod.marliggger": "Marlin Spawn Egg"
     }
   },
   "workspaceSettings": {

@@ -1,0 +1,34 @@
+{
+  "_fv": 8,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "stimpickaxe",
+    "customModelName": "Normal",
+    "name": "Stim Pax",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 512,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Rupee"
+      }
+    ],
+    "onRightClickedInAir": {
+      "name": "StimPaxRightClickedOnBlock"
+    },
+    "onRightClickedOnBlock": {
+      "name": "StimPaxRightClickedOnBlock"
+    }
+  }
+}

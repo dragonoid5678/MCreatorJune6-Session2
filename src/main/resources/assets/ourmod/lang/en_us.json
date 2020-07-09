@@ -1,3 +1,10 @@
 {
-  "item.ourmod.jetpack": "Jetpack"
+  "item.ourmod.rupee": "Rupee",
+  "block.ourmod.face_me": "Face Me",
+  "block.ourmod.rupee_ore": "Rupee Ore",
+  "item.ourmod.jetpack": "Jetpack",
+  "item.ourmod.stim_pax": "Stim Pax",
+  "block.ourmod.sensei_block": "Sensei Block",
+  "entity.ourmod.marliggger": "Marlin",
+  "item.ourmod.marliggger": "Marlin Spawn Egg"
 }

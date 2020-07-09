@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ourmod:blocks/rupee-1.png",
+    "particle": "ourmod:blocks/rupee-1.png"
+  }
+}
