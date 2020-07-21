@@ -123,20 +123,80 @@
           }
         ]
       }
+    },
+    {
+      "name": "CorruptGrass",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corrupt_grass"
+    },
+    {
+      "name": "CorruptPortalBlock",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corrupt_portal_block"
+    },
+    {
+      "name": "Underworld",
+      "type": "dimension",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "underworld"
+    },
+    {
+      "name": "CorruptBiome",
+      "type": "biome",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corrupt_biome"
+    },
+    {
+      "name": "Creopp",
+      "type": "mob",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creopp"
+    },
+    {
+      "name": "BethesdaBlock",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bethesda_block"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.ourmod.rupee": "Rupee",
       "block.ourmod.face_me": "Face Me",
       "block.ourmod.rupee_ore": "Rupee Ore",
-      "item.ourmod.jetpack": "Jetpack",
+      "item.ourmod.underworld": "Underworld Portal Igniter",
+      "block.ourmod.corrupt_grass": "Corrupt Grass",
+      "entity.ourmod.creopp": "Creopp",
       "item.ourmod.stim_pax": "Stim Pax",
       "block.ourmod.sensei_block": "Sensei Block",
+      "item.ourmod.rupee": "Rupee",
+      "block.ourmod.corrupt_portal_block": "Corrupt Portal Block",
+      "item.ourmod.creopp": "Creopp Spawn Egg",
+      "item.ourmod.jetpack": "Jetpack",
       "entity.ourmod.marliggger": "Marlin",
-      "item.ourmod.marliggger": "Marlin Spawn Egg"
+      "item.ourmod.marliggger": "Marlin Spawn Egg",
+      "block.ourmod.bethesda_block": "Bethesda Block"
     }
   },
   "workspaceSettings": {
@@ -152,6 +212,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.15.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.ourmod",
     "lockBaseModFiles": false
   },

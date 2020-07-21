@@ -1,10 +1,16 @@
 {
-  "item.ourmod.rupee": "Rupee",
   "block.ourmod.face_me": "Face Me",
   "block.ourmod.rupee_ore": "Rupee Ore",
-  "item.ourmod.jetpack": "Jetpack",
+  "item.ourmod.underworld": "Underworld Portal Igniter",
+  "block.ourmod.corrupt_grass": "Corrupt Grass",
+  "entity.ourmod.creopp": "Creopp",
   "item.ourmod.stim_pax": "Stim Pax",
   "block.ourmod.sensei_block": "Sensei Block",
+  "item.ourmod.rupee": "Rupee",
+  "block.ourmod.corrupt_portal_block": "Corrupt Portal Block",
+  "item.ourmod.creopp": "Creopp Spawn Egg",
+  "item.ourmod.jetpack": "Jetpack",
   "entity.ourmod.marliggger": "Marlin",
-  "item.ourmod.marliggger": "Marlin Spawn Egg"
+  "item.ourmod.marliggger": "Marlin Spawn Egg",
+  "block.ourmod.bethesda_block": "Bethesda Block"
 }

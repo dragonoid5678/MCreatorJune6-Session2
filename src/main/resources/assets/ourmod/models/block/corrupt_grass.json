@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ourmod:blocks/cgrass_bottom",
+    "up": "ourmod:blocks/cgrass_top",
+    "north": "ourmod:blocks/cgrass_sides",
+    "east": "ourmod:blocks/cgrass_sides",
+    "south": "ourmod:blocks/cgrass_sides",
+    "west": "ourmod:blocks/cgrass_sides",
+    "particle": "ourmod:blocks/cgrass_bottom"
+  }
+}

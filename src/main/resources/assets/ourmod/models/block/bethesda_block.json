@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ourmod:blocks/beth",
+    "particle": "ourmod:blocks/beth"
+  }
+}
