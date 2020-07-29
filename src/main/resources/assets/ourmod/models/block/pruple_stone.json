@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ourmod:blocks/purple_stone-1.png",
+    "particle": "ourmod:blocks/purple_stone-1.png"
+  }
+}

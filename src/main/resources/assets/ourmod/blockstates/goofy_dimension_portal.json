@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "ourmod:block/goofy_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "ourmod:block/goofy_dimension_portal_ns"
+    }
+  }
+}

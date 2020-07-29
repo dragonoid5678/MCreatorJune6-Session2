@@ -1,0 +1,29 @@
+{
+  "group": "ourmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "ourmod:rainbow_tree"
+    },
+    "1": {
+      "item": "ourmod:rainbow_tree"
+    },
+    "2": {
+      "item": "ourmod:rainbow_tree"
+    },
+    "3": {
+      "item": "ourmod:rainbow_tree"
+    },
+    "5": {
+      "item": "ourmod:rainbow_tree"
+    }
+  },
+  "result": {
+    "item": "ourmod:rainbow_armorhelmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "group": "ourmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ourmod:ruppees_ingot"
+    },
+    "2": {
+      "item": "ourmod:ruppees_ingot"
+    },
+    "3": {
+      "item": "ourmod:ruppees_ingot"
+    },
+    "4": {
+      "item": "ourmod:ruppees_ingot"
+    },
+    "5": {
+      "item": "ourmod:ruppees_ingot"
+    },
+    "6": {
+      "item": "ourmod:ruppees_ingot"
+    },
+    "7": {
+      "item": "ourmod:ruppees_ingot"
+    },
+    "8": {
+      "item": "ourmod:ruppees_ingot"
+    }
+  },
+  "result": {
+    "item": "ourmod:ruppees_armorbody",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "group": "ourmod",
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "ourmod:ruppees_ore"
+  },
+  "result": {
+    "item": "ourmod:ruppees_ingot"
+  }
+}

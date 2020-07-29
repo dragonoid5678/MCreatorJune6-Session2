@@ -1,0 +1,13 @@
+{
+  "group": "ourmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ourmod:ruppees_ore_block"
+    }
+  ],
+  "result": {
+    "item": "ourmod:ruppees_ingot",
+    "count": 9
+  }
+}

@@ -2,49 +2,6 @@
   "id_map": {},
   "mod_elements": [
     {
-      "name": "JetpackRightClickedInAir",
-      "type": "procedure",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "jetpack_right_clicked_in_air",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "JetpackItemInHandTick",
-      "type": "procedure",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "jetpack_item_in_hand_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Jetpack",
-      "type": "item",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "jetpack"
-    },
-    {
       "name": "SenseiBlock",
       "type": "block",
       "sortid": 3,
@@ -90,15 +47,6 @@
       "registry_name": "face_me"
     },
     {
-      "name": "Marliggger",
-      "type": "mob",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "marliggger"
-    },
-    {
       "name": "StimPax",
       "type": "tool",
       "sortid": 9,
@@ -134,69 +82,355 @@
       "registry_name": "corrupt_grass"
     },
     {
-      "name": "CorruptPortalBlock",
+      "name": "RuppeesOre",
       "type": "block",
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "corrupt_portal_block"
+      "registry_name": "ruppees_ore"
     },
     {
-      "name": "Underworld",
-      "type": "dimension",
+      "name": "RuppeesOreBlock",
+      "type": "block",
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "underworld"
+      "registry_name": "ruppees_ore_block"
     },
     {
-      "name": "CorruptBiome",
-      "type": "biome",
+      "name": "RuppeesIngot",
+      "type": "item",
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "corrupt_biome"
+      "registry_name": "ruppees_ingot"
     },
     {
-      "name": "Creopp",
-      "type": "mob",
+      "name": "RuppeesOreBlockRecipe",
+      "type": "recipe",
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "creopp"
+      "registry_name": "ruppees_ore_block_recipe"
     },
     {
-      "name": "BethesdaBlock",
-      "type": "block",
+      "name": "RuppeesBlockOreRecipe",
+      "type": "recipe",
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "bethesda_block"
+      "registry_name": "ruppees_block_ore_recipe"
+    },
+    {
+      "name": "RuppeesOreSmelting",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruppees_ore_smelting"
+    },
+    {
+      "name": "RuppeesPickaxe",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruppees_pickaxe"
+    },
+    {
+      "name": "RuppeesAxe",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruppees_axe"
+    },
+    {
+      "name": "RuppeesSword",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruppees_sword"
+    },
+    {
+      "name": "RuppeesShovel",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruppees_shovel"
+    },
+    {
+      "name": "RuppeesHoe",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruppees_hoe"
+    },
+    {
+      "name": "RuppeesPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruppees_pickaxe_recipe"
+    },
+    {
+      "name": "RuppeesAxeRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruppees_axe_recipe"
+    },
+    {
+      "name": "RuppeesSwordRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruppees_sword_recipe"
+    },
+    {
+      "name": "RuppeesShovelRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruppees_shovel_recipe"
+    },
+    {
+      "name": "RuppeesHoeRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruppees_hoe_recipe"
+    },
+    {
+      "name": "RainbowTree",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rainbow_tree"
+    },
+    {
+      "name": "RainbowLeaves",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rainbow_leaves"
+    },
+    {
+      "name": "PrupleStone",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pruple_stone"
+    },
+    {
+      "name": "LDBiome",
+      "type": "biome",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ld_biome"
+    },
+    {
+      "name": "GoofyDimension",
+      "type": "dimension",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "goofy_dimension"
+    },
+    {
+      "name": "WhiteLeaves",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_leaves"
+    },
+    {
+      "name": "RainbowArmor",
+      "type": "armor",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rainbow_armor"
+    },
+    {
+      "name": "RainbowArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rainbow_armor_helmet_recipe"
+    },
+    {
+      "name": "RainbowArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rainbow_armor_body_recipe"
+    },
+    {
+      "name": "RainbowArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rainbow_armor_leggings_recipe"
+    },
+    {
+      "name": "RainbowArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rainbow_armor_boots_recipe"
+    },
+    {
+      "name": "RuppeesArmor",
+      "type": "armor",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruppees_armor"
+    },
+    {
+      "name": "RuppeesArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruppees_armor_helmet_recipe"
+    },
+    {
+      "name": "RuppeesArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruppees_armor_body_recipe"
+    },
+    {
+      "name": "RuppeesArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruppees_armor_leggings_recipe"
+    },
+    {
+      "name": "RuppeesArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruppees_armor_boots_recipe"
+    },
+    {
+      "name": "TastyCake",
+      "type": "food",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tasty_cake"
+    },
+    {
+      "name": "Graasss",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "graasss"
+    },
+    {
+      "name": "RainbowOre",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rainbow_ore"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.ourmod.face_me": "Face Me",
+      "item.ourmod.ruppees_ingot": "Ruppees",
       "block.ourmod.rupee_ore": "Rupee Ore",
-      "item.ourmod.underworld": "Underworld Portal Igniter",
+      "item.ourmod.ruppees_armorlegs": "Ruppees Leggings",
+      "item.ourmod.ruppees_armorhelmet": "Ruppees Helmet",
       "block.ourmod.corrupt_grass": "Corrupt Grass",
-      "entity.ourmod.creopp": "Creopp",
+      "item.ourmod.goofy_dimension": "Goofy Dimension Portal Igniter",
+      "item.ourmod.rainbow_armorboots": "Rainbow Boots",
+      "block.ourmod.rainbow_tree": "Rainbow Tree",
+      "item.ourmod.ruppees_armorbody": "Ruppees Chestplate",
+      "block.ourmod.rainbow_leaves": "Rainbow Leaves",
+      "item.ourmod.ruppees_hoe": "Ruppees Hoe",
+      "item.ourmod.ruppees_pickaxe": "Ruppees Pickaxe",
+      "block.ourmod.rainbow_ore": "Rainbow Ore",
+      "block.ourmod.ruppees_ore": "Ruppees Ore",
+      "block.ourmod.graasss": "Graasss",
+      "block.ourmod.pruple_stone": "Pruple Stone",
+      "item.ourmod.ruppees_armorboots": "Ruppees Boots",
+      "block.ourmod.face_me": "Face Me",
+      "block.ourmod.white_leaves": "White Leaves",
+      "item.ourmod.ruppees_axe": "Ruppees Axe",
+      "item.ourmod.rainbow_armorlegs": "Rainbow Leggings",
       "item.ourmod.stim_pax": "Stim Pax",
+      "item.ourmod.ruppees_shovel": "Ruppees Shovel",
+      "item.ourmod.rainbow_armorbody": "Rainbow Chestplate",
       "block.ourmod.sensei_block": "Sensei Block",
+      "block.ourmod.ruppees_ore_block": "Block of Ruppees",
+      "item.ourmod.tasty_cake": "Tasty Cake",
       "item.ourmod.rupee": "Rupee",
-      "block.ourmod.corrupt_portal_block": "Corrupt Portal Block",
-      "item.ourmod.creopp": "Creopp Spawn Egg",
-      "item.ourmod.jetpack": "Jetpack",
-      "entity.ourmod.marliggger": "Marlin",
-      "item.ourmod.marliggger": "Marlin Spawn Egg",
-      "block.ourmod.bethesda_block": "Bethesda Block"
+      "item.ourmod.ruppees_sword": "Ruppees Sword",
+      "item.ourmod.rainbow_armorhelmet": "Rainbow Helmet"
     }
   },
   "workspaceSettings": {

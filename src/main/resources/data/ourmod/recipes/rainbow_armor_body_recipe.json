@@ -1,0 +1,39 @@
+{
+  "group": "ourmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ourmod:rainbow_tree"
+    },
+    "2": {
+      "item": "ourmod:rainbow_tree"
+    },
+    "3": {
+      "item": "ourmod:rainbow_tree"
+    },
+    "4": {
+      "item": "ourmod:rainbow_tree"
+    },
+    "5": {
+      "item": "ourmod:rainbow_tree"
+    },
+    "6": {
+      "item": "ourmod:rainbow_tree"
+    },
+    "7": {
+      "item": "ourmod:rainbow_tree"
+    },
+    "8": {
+      "item": "ourmod:rainbow_tree"
+    }
+  },
+  "result": {
+    "item": "ourmod:rainbow_armorbody",
+    "count": 1
+  }
+}
