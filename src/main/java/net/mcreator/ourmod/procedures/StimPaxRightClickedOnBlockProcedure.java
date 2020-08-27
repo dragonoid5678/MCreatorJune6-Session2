@@ -8,13 +8,15 @@ import net.minecraft.entity.Entity;
 
 import net.mcreator.ourmod.OurmodModElements;
 
+import java.util.Map;
+
 @OurmodModElements.ModElement.Tag
 public class StimPaxRightClickedOnBlockProcedure extends OurmodModElements.ModElement {
 	public StimPaxRightClickedOnBlockProcedure(OurmodModElements instance) {
 		super(instance, 10);
 	}
 
-	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			System.err.println("Failed to load dependency entity for procedure StimPaxRightClickedOnBlock!");
 			return;

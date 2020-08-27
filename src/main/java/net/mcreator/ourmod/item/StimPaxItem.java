@@ -21,6 +21,9 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.mcreator.ourmod.procedures.StimPaxRightClickedOnBlockProcedure;
 import net.mcreator.ourmod.OurmodModElements;
 
+import java.util.Map;
+import java.util.HashMap;
+
 @OurmodModElements.ModElement.Tag
 public class StimPaxItem extends OurmodModElements.ModElement {
 	@ObjectHolder("ourmod:stim_pax")
@@ -60,11 +63,11 @@ public class StimPaxItem extends OurmodModElements.ModElement {
 			public ActionResult<ItemStack> onItemRightClick(World world, PlayerEntity entity, Hand hand) {
 				ActionResult<ItemStack> retval = super.onItemRightClick(world, entity, hand);
 				ItemStack itemstack = retval.getResult();
-				int x = (int) entity.getPosX();
-				int y = (int) entity.getPosY();
-				int z = (int) entity.getPosZ();
+				double x = entity.getPosX();
+				double y = entity.getPosY();
+				double z = entity.getPosZ();
 				{
-					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
 					StimPaxRightClickedOnBlockProcedure.executeProcedure($_dependencies);
 				}
@@ -83,7 +86,7 @@ public class StimPaxItem extends OurmodModElements.ModElement {
 				int z = pos.getZ();
 				ItemStack itemstack = context.getItem();
 				{
-					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
 					StimPaxRightClickedOnBlockProcedure.executeProcedure($_dependencies);
 				}

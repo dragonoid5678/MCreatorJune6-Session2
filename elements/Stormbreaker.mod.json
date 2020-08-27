@@ -1,0 +1,48 @@
+{
+  "_fv": 10,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "strormbreaker",
+    "customModelName": "Normal",
+    "name": "Stormbreaker",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:LogansCool"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 1,
+    "actionSound": {
+      "value": "entity.player.attack.crit"
+    },
+    "hasGlow": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "StormbreakerRangedItemUsed"
+    },
+    "bulletPower": 1.0,
+    "bulletDamage": 50.0,
+    "bulletKnockback": 10,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Blocks.AIR"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "StormbreakerBulletHitsLivingEntity"
+    },
+    "onBulletHitsPlayer": {
+      "name": "StormbreakerBulletHitsLivingEntity"
+    },
+    "onBulletHitsEntity": {
+      "name": "StormbreakerBulletHitsLivingEntity"
+    }
+  }
+}

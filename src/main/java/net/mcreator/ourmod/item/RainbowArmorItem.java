@@ -20,13 +20,13 @@ import net.mcreator.ourmod.OurmodModElements;
 
 @OurmodModElements.ModElement.Tag
 public class RainbowArmorItem extends OurmodModElements.ModElement {
-	@ObjectHolder("ourmod:rainbow_armorhelmet")
+	@ObjectHolder("ourmod:rainbow_armor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("ourmod:rainbow_armorbody")
+	@ObjectHolder("ourmod:rainbow_armor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("ourmod:rainbow_armorlegs")
+	@ObjectHolder("ourmod:rainbow_armor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("ourmod:rainbow_armorboots")
+	@ObjectHolder("ourmod:rainbow_armor_boots")
 	public static final Item boots = null;
 	public RainbowArmorItem(OurmodModElements instance) {
 		super(instance, 34);
@@ -69,24 +69,24 @@ public class RainbowArmorItem extends OurmodModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "ourmod:textures/models/armor/rainbow_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("rainbow_armorhelmet"));
+		}.setRegistryName("rainbow_armor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "ourmod:textures/models/armor/rainbow_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("rainbow_armorbody"));
+		}.setRegistryName("rainbow_armor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "ourmod:textures/models/armor/rainbow_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("rainbow_armorlegs"));
+		}.setRegistryName("rainbow_armor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "ourmod:textures/models/armor/rainbow_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("rainbow_armorboots"));
+		}.setRegistryName("rainbow_armor_boots"));
 	}
 }

@@ -20,13 +20,13 @@ import net.mcreator.ourmod.OurmodModElements;
 
 @OurmodModElements.ModElement.Tag
 public class RuppeesArmorItem extends OurmodModElements.ModElement {
-	@ObjectHolder("ourmod:ruppees_armorhelmet")
+	@ObjectHolder("ourmod:ruppees_armor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("ourmod:ruppees_armorbody")
+	@ObjectHolder("ourmod:ruppees_armor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("ourmod:ruppees_armorlegs")
+	@ObjectHolder("ourmod:ruppees_armor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("ourmod:ruppees_armorboots")
+	@ObjectHolder("ourmod:ruppees_armor_boots")
 	public static final Item boots = null;
 	public RuppeesArmorItem(OurmodModElements instance) {
 		super(instance, 39);
@@ -69,24 +69,24 @@ public class RuppeesArmorItem extends OurmodModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "ourmod:textures/models/armor/ruppees_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("ruppees_armorhelmet"));
+		}.setRegistryName("ruppees_armor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "ourmod:textures/models/armor/ruppees_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("ruppees_armorbody"));
+		}.setRegistryName("ruppees_armor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "ourmod:textures/models/armor/ruppees_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("ruppees_armorlegs"));
+		}.setRegistryName("ruppees_armor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "ourmod:textures/models/armor/ruppees_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("ruppees_armorboots"));
+		}.setRegistryName("ruppees_armor_boots"));
 	}
 }

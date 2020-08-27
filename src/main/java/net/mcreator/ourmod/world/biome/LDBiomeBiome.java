@@ -31,9 +31,9 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.ourmod.block.WhiteLeavesBlock;
 import net.mcreator.ourmod.block.RainbowTreeBlock;
 import net.mcreator.ourmod.block.PrupleStoneBlock;
+import net.mcreator.ourmod.block.NoahsLeavesBlock;
 import net.mcreator.ourmod.block.CorruptGrassBlock;
 import net.mcreator.ourmod.OurmodModElements;
 
@@ -76,7 +76,7 @@ public class LDBiomeBiome extends OurmodModElements.ModElement {
 					.withPlacement(Placement.COUNT_HEIGHTMAP_DOUBLE.configure(new FrequencyConfig(4))));
 			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, new CustomTreeFeature()
 					.withConfiguration((new BaseTreeFeatureConfig.Builder(new SimpleBlockStateProvider(RainbowTreeBlock.block.getDefaultState()),
-							new SimpleBlockStateProvider(WhiteLeavesBlock.block.getDefaultState()))).baseHeight(7)
+							new SimpleBlockStateProvider(NoahsLeavesBlock.block.getDefaultState()))).baseHeight(7)
 									.setSapling((net.minecraftforge.common.IPlantable) Blocks.JUNGLE_SAPLING).build())
 					.withPlacement(Placement.COUNT_EXTRA_HEIGHTMAP.configure(new AtSurfaceWithExtraConfig(5, 0.1F, 1))));
 		}
@@ -156,8 +156,8 @@ public class LDBiomeBiome extends OurmodModElements.ModElement {
 										state = world.getBlockState(blockpos);
 										if (state.getBlock().isAir(state, world, blockpos) || state.getMaterial().blocksMovement()
 												|| state.isIn(BlockTags.LEAVES) || state.getBlock() == Blocks.VINE.getDefaultState().getBlock()
-												|| state.getBlock() == WhiteLeavesBlock.block.getDefaultState().getBlock()) {
-											setTreeBlockState(changedBlocks, world, blockpos, WhiteLeavesBlock.block.getDefaultState(), bbox);
+												|| state.getBlock() == NoahsLeavesBlock.block.getDefaultState().getBlock()) {
+											setTreeBlockState(changedBlocks, world, blockpos, NoahsLeavesBlock.block.getDefaultState(), bbox);
 										}
 									}
 								}
@@ -169,7 +169,7 @@ public class LDBiomeBiome extends OurmodModElements.ModElement {
 							setTreeBlockState(changedBlocks, world, genhPos, RainbowTreeBlock.block.getDefaultState(), bbox);
 							if (state.getBlock().isAir(state, world, genhPos) || state.getMaterial().blocksMovement() || state.isIn(BlockTags.LEAVES)
 									|| state.getBlock() == Blocks.VINE.getDefaultState().getBlock()
-									|| state.getBlock() == WhiteLeavesBlock.block.getDefaultState().getBlock()) {
+									|| state.getBlock() == NoahsLeavesBlock.block.getDefaultState().getBlock()) {
 							}
 						}
 						if (rand.nextInt(4) == 0 && height > 5) {
@@ -204,7 +204,7 @@ public class LDBiomeBiome extends OurmodModElements.ModElement {
 
 		private boolean canGrowInto(Block blockType) {
 			return blockType.getDefaultState().getMaterial() == Material.AIR || blockType == RainbowTreeBlock.block.getDefaultState().getBlock()
-					|| blockType == WhiteLeavesBlock.block.getDefaultState().getBlock()
+					|| blockType == NoahsLeavesBlock.block.getDefaultState().getBlock()
 					|| blockType == CorruptGrassBlock.block.getDefaultState().getBlock()
 					|| blockType == PrupleStoneBlock.block.getDefaultState().getBlock();
 		}

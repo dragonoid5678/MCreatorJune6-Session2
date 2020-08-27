@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ourmod:blocks/rainbowtreetop-1.png_1",
+    "up": "ourmod:blocks/rainbowtreetop-1.png_1",
+    "north": "ourmod:blocks/rainbowtreeside-1.png",
+    "east": "ourmod:blocks/rainbowtreeside-1.png",
+    "south": "ourmod:blocks/rainbowtreeside-1.png",
+    "west": "ourmod:blocks/rainbowtreeside-1.png",
+    "particle": "ourmod:blocks/rainbowtreetop-1.png_1"
+  }
+}
